@@ -20,10 +20,10 @@ android {
 
 dependencies {
 
-    compile 'org.litepal.android:core:1.6.0'
-    compile 'com.squareup.okhttp3:okhttp:3.9.0'
-    compile 'com.google.code.gson:gson:2.8.0'
-    compile 'com.github.bumptech.glide:glide:4.0.0'
+    implementation 'org.litepal.android:core:1.6.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.9.0'
+    implementation 'com.google.code.gson:gson:2.8.0'
+    implementation 'com.github.bumptech.glide:glide:4.0.0'
 
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:27.1.1'
