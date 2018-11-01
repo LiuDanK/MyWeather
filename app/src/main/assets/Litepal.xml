@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+
+    <dbname value = "my_weather"></dbname>
+
+    <version value = "1"></version>
+
+    <list>
+        <mapping class = "com.mypc.lyk.myweather2.DataBase.Province"></mapping>
+        <mapping class = "com.mypc.lyk.myweather2.DataBase.City"></mapping>
+        <mapping class = "com.mypc.lyk.myweather2.DataBase.County"></mapping>
+    </list>
+
+</litepal>
